@@ -1,16 +1,17 @@
 import pandas as pd
-import nltk
-import gensim
-import re
 
-import sklearn
-import numpy as np
-
-import sklearn.linear_model
-import sklearn.model_selection
-from sklearn.svm import LinearSVC
-from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import StandardScaler
+# import nltk
+# import gensim
+# import re
+#
+# import sklearn
+# import numpy as np
+#
+# import sklearn.linear_model
+# import sklearn.model_selection
+# from sklearn.svm import LinearSVC
+# from sklearn.pipeline import make_pipeline
+# from sklearn.preprocessing import StandardScaler
 
 # -*- coding: utf-8 -*-
 """Tarea_2_NLP_Grupo_3.ipynb
@@ -62,7 +63,7 @@ https://centrodeayuda.chilexpress.cl/home
 #
 # # !wget https://github.com/alvaro-neira/nlp-homework2/blob/main/respuestasDefecto.csv -O /content/respuestasDefecto.csv
 
-answers = pd.read_csv('respuestasDefecto.csv', sep=',')
+answers = pd.read_csv('respuestasDefecto.csv', sep=';')
 answers.tail()
 
 """## 1.5 Describa en términos generales las tablas que construyó.
