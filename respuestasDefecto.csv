@@ -4,7 +4,7 @@ saludo;"Hola, cuéntame qué necesitas"
 saludo;"Buenos días, en qué puedo ayudarte?"
 saludo;"Buenas tardes, en qué puedo ayudarte?"
 saludo;"Un gusto saludar, en qué puedo ayudarte?"
-despedida;Gracias por contactarte con nosotros
+despedida;"Gracias por contactarte con nosotros"
 despedida;"Adios, que esté muy bien"
 despedida;"Hasta luego, gracias por tu tiempo"
 despedida;"Adios, espero hayamos resuelto tu inquietud"
