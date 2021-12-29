@@ -1,18 +1,29 @@
 Clase;Mensaje
 saludo;Hola
-saludo;Hi
+saludo;Buenas noches
 saludo;Buenos días
 saludo;Buenas tardes
-saludo;Como estas
+saludo;¿Cómo estás?
+saludo;¿Cómo está?
+saludo;¿Cómo se encuentra hoy?
+saludo;¿Cómo te encuentras hoy?
+saludo;¡Hola en este hermoso día!
+saludo;¡Hola hola!
 despedida;Chao
-despedida;Adios
+despedida;Adiós
 despedida;Hasta luego
 despedida;Nos vemos
-despedida;Bye
+despedida;Que tenga buen día
+despedida;Que tenga un buen día
+despedida;Que tengas buen día
+despedida;Que tenga un buen día
 nombre;Mi nombre es
 nombre;Mi usuario es
 nombre;Yo soy
 nombre;Me llamo
+nombre;Soy
+nombre;Permítame presentarme, soy
+nombre;Soy conocida como
 información;¿Qué es la Orden de Transporte (OT)?
 información;¿Cuál es el plazo para retirar un envío desde una sucursal de Chilexpress?
 información;¿Puede otra persona retirar mi envío de una sucursal Chilexpress?
