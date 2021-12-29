@@ -45,4 +45,4 @@ class DataSetTarea2(datasets.GeneratorBasedBuilder):
             )
             for id_, row in enumerate(csv_reader):
                 id, clase, mensaje = row
-                yield id_, {"clase": clase, "mensaje": mensaje}
+                yield id_, {"Clase": clase, "Mensaje": mensaje}
