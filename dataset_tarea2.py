@@ -3,7 +3,6 @@ import csv
 import datasets
 from datasets.tasks import TextClassification
 
-
 _DESCRIPTION = """\
 A Description
 """
@@ -11,25 +10,24 @@ A Description
 _CITATION = """\
 """
 
-_TRAIN_DOWNLOAD_URL = "https://raw.githubusercontent.com/mhjabreel/CharCnn_Keras/master/data/ag_news_csv/train.csv"
-_TEST_DOWNLOAD_URL = "https://raw.githubusercontent.com/mhjabreel/CharCnn_Keras/master/data/ag_news_csv/test.csv"
+_TRAIN_DOWNLOAD_URL = "https://raw.githubusercontent.com/alvaro-neira/nlp-homework2/main/train_dataset.csv"
+_TEST_DOWNLOAD_URL = "https://raw.githubusercontent.com/alvaro-neira/nlp-homework2/main/validation_dataset.csv"
 
 
-class AGNews(datasets.GeneratorBasedBuilder):
-    """AG News topic classification dataset."""
-
+class DataSetTarea2(datasets.GeneratorBasedBuilder):
     def _info(self):
         return datasets.DatasetInfo(
-            description=_DESCRIPTION,
+            description="Data set en espanol para tarea 2 NLP",
             features=datasets.Features(
                 {
-                    "text": datasets.Value("string"),
-                    "label": datasets.features.ClassLabel(names=["World", "Sports", "Business", "Sci/Tech"]),
+                    "Clase": datasets.Value("string"),
+                    "Mensaje": datasets.Value("string"),
                 }
             ),
-            homepage="http://groups.di.unipi.it/~gulli/AG_corpus_of_news_articles.html",
-            citation=_CITATION,
-            task_templates=[TextClassification(text_column="text", label_column="label")],
+            # No default supervised_keys (as we have to pass both question
+            # and context as input).
+            supervised_keys=None
+
         )
 
     def _split_generators(self, dl_manager):
@@ -41,16 +39,10 @@ class AGNews(datasets.GeneratorBasedBuilder):
         ]
 
     def _generate_examples(self, filepath):
-        """Generate AG News examples."""
         with open(filepath, encoding="utf-8") as csv_file:
             csv_reader = csv.reader(
-                csv_file, quotechar='"', delimiter=",", quoting=csv.QUOTE_ALL, skipinitialspace=True
+                csv_file, quotechar='"', delimiter=";", quoting=csv.QUOTE_ALL, skipinitialspace=True
             )
             for id_, row in enumerate(csv_reader):
-                label, title, description = row
-                # Original labels are [1, 2, 3, 4] ->
-                #                   ['World', 'Sports', 'Business', 'Sci/Tech']
-                # Re-map to [0, 1, 2, 3].
-                label = int(label) - 1
-                text = " ".join((title, description))
-                yield id_, {"text": text, "label": label}
+                id, clase, mensaje = row
+                yield id_, {"clase": clase, "mensaje": mensaje}
