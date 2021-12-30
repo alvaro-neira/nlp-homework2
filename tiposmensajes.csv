@@ -3,7 +3,7 @@ saludo;Hola
 saludo;Buenas noches
 saludo;Buenos días
 saludo;Buenas tardes
-saludo;Buenas tarde
+saludo;Buena tarde
 saludo;¿Cómo estás?
 saludo;¿Cómo está?
 saludo;¿Cómo se encuentra hoy?
@@ -32,6 +32,7 @@ nombre;Soy
 nombre;Permítame presentarme, soy
 nombre;Permíteme presentarme, soy
 nombre;Soy conocida como
+nombre;Me conocen como
 información;¿Qué es la Orden de Transporte (OT)?
 información;¿Cuál es el plazo para retirar un envío desde una sucursal de Chilexpress?
 información;¿Puede otra persona retirar mi envío de una sucursal Chilexpress?
