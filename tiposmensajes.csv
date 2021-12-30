@@ -48,6 +48,7 @@ saludo;¿Cómo estamos?
 despedida;Chao
 despedida;Adiós
 despedida;Hasta luego
+despedida;Hasta pronto
 despedida;Nos vemos
 despedida;Que tenga buen día
 despedida;Que tenga un buen día
@@ -126,6 +127,16 @@ nombre;Se comunica con
 nombre;Te estás comunicando con
 nombre;Se está comunicando con
 nombre;De parte de
+nombre;Soy el usuario de nombre
+nombre;Nombre:
+nombre;Usuario:
+nombre;Te hablo de parte de
+nombre;Me apellido
+nombre;En chilexpress, me llamo
+nombre;En chilexpress, mi nombre es
+nombre;En chilexpress, mi usuario es
+nombre;Le hablo de parte de
+nombre;En chilexpress, soy
 información;¿Qué es la Orden de Transporte (OT)?
 información;¿Cuál es el plazo para retirar un envío desde una sucursal de Chilexpress?
 información;¿Puede otra persona retirar mi envío de una sucursal Chilexpress?
