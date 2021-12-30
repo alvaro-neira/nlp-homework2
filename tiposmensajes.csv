@@ -13,6 +13,17 @@ saludo;Hola, robot
 saludo;Encantado
 saludo;Un gusto saludar
 saludo;Un gusto
+saludo;Buenas
+saludo;¿Hay alguien?
+saludo;¿Quién me puede atender?
+saludo;¿Puede responderme?
+saludo;Tengo una duda
+saludo;Tengo una pregunta
+saludo;Tengo un problema
+saludo;Aló
+saludo;Yuju
+saludo;Hey
+saludo;Hola ¿Quien eres?
 despedida;Chao
 despedida;Adiós
 despedida;Hasta luego
@@ -28,6 +39,18 @@ despedida;¡Que estés muy bien!
 despedida;Un saludo
 despedida;Gracias!
 despedida;Ha sido un gusto
+despedida;Ok, me queda claro
+despedida;Chao, gracias
+despedida;Gracias a ti
+despedida;El gusto fue mío
+despedida;Agradecido
+despedida;Agradecida
+despedida;Me despido
+despedida;Ok, ahora me voy
+despedida;Me voy, gracias
+despedida;Ok, ahora me tengo que ir
+despedida;Cerraré esta ventana
+despedida;Cuídate
 nombre;Mi nombre es
 nombre;Mi usuario es
 nombre;Yo soy
@@ -47,6 +70,14 @@ nombre;Mi apellido es
 nombre;Mi nombre y apellido son
 nombre;Mi nombre y apellido es
 nombre;Me gusta que me llamen
+nombre;Me dicen
+nombre;Uso el apodo de
+nombre;Me apodan
+nombre;No me gusta dar mi nombre real, así que llámame
+nombre;En internet, mi nombre es
+nombre;Estoy registrado como
+nombre;Usa mi correo, que es
+nombre;Utiliza mi correo, que es
 información;¿Qué es la Orden de Transporte (OT)?
 información;¿Cuál es el plazo para retirar un envío desde una sucursal de Chilexpress?
 información;¿Puede otra persona retirar mi envío de una sucursal Chilexpress?
