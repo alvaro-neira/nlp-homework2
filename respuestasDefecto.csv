@@ -3,21 +3,29 @@ saludo;Hola, ¿en qué puedo ayudarte?
 saludo;Hola, ¿en qué puedo ayudarlo?
 saludo;Hola, cuéntame qué necesitas
 saludo;Hola, cuénteme qué necesita
+saludo;Hola, cuéntame en qué puedo ayudarte
+saludo;Hola, cuénteme en qué puedo ayudarlo
+saludo;Hola, cuéntame en qué te puedo ayudar
+saludo;Hola, cuénteme en qué lo puedo ayudar
 saludo;Buenos días, ¿en qué puedo ayudarte?
 saludo;Buenos días, ¿en qué puedo ayudarlo?
-saludo;Buen día, ¿en qué puedo ayudarte?
-saludo;Buen día, ¿en qué puedo ayudarlo?
-saludo;Buenas tardes, ¿en qué puedo ayudarte?
-saludo;Buenas tardes, ¿en qué puedo ayudarlo?
-saludo;Buena tarde, ¿en qué puedo ayudarte?
-saludo;Buena tarde, ¿en qué puedo ayudarlo?
-saludo;Buenas noches, ¿en qué puedo ayudarte?
-saludo;Buenas noches, ¿en qué puedo ayudarlo?
+saludo;Buenos días, ¿en qué te puedo te ayudar?
+saludo;Buenos días, ¿en qué lo puedo lo ayudar?
+saludo;Buen día, ¿en qué te puedo ayudar?
+saludo;Buen día, ¿en qué lo puedo ayudar?
+saludo;Buenas tardes, ¿en qué lo puedo ayudar?
+saludo;Buenas tardes, ¿en qué lo puedo ayudar?
+saludo;Buena tarde, ¿en qué te puedo ayudar?
+saludo;Buena tarde, ¿en qué lo puedo ayudar?
+saludo;Buenas noches, ¿en qué te puedo ayudar?
+saludo;Buenas noches, ¿en qué lo puedo ayudar?
 saludo;Un gusto saludar, ¿en qué puedo ayudarte?
+saludo;¿Te puedo ayudar en algo?
+saludo;¿Lo puedo ayudar en algo?
 despedida;Gracias por contactarte con nosotros
-despedida;Adios, que esté muy bien
+despedida;Adiós, que esté muy bien
 despedida;Hasta luego, gracias por tu tiempo
-despedida;Adios, espero hayamos resuelto tu inquietud
+despedida;Adiós, espero hayamos resuelto tu inquietud
 despedida;Gracias por tu tiempo, ¡hasta luego!
 despedida;Si no tiene más dudas, me despido. ¡Hasta luego!
 despedida;Si no tienes más inquietudes, me despido. ¡Hasta luego!
