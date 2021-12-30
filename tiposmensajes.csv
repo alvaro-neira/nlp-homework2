@@ -45,49 +45,49 @@ nombre;Mi pseudonimo es
 nombre;Mi apellido es
 nombre;Mi nombre y apellido son
 nombre;Mi nombre y apellido es
-información;¿Qué es la Orden de Transporte (OT)?
-información;¿Cuál es el plazo para retirar un envío desde una sucursal de Chilexpress?
-información;¿Puede otra persona retirar mi envío de una sucursal Chilexpress?
-información;¿Se puede modificar la dirección de envío?
-información;¿Puedo cambiar el destino del envío desde una dirección particular a una sucursal de Chilexpress?
-información;¿El destinatario puede cambiar la dirección del envío?
-información;Si el destinatario no se encuentra en la dirección de envío, ¿puede recibirlo otra persona?
-información;¿Qué pasa si el destinatario no puede recibir el envío en su dirección?
-información;¿Cuántos intentos de entrega en el domicilio realiza Chilexpress, antes de devolver un envío al remitente?
-información;¿Chilexpress solicita el RUT del destinatario para realizar un envío desde una sucursal?
-información;¿Qué es un envío sobredimensionado?
-información;¿Cuánto cuesta un envío sobredimensionado?
-información;¿Existen restricciones en los tiempos de entrega para un envío sobredimensionado?
-información;¿Cuál es la diferencia entre un documento y una encomienda?
-información;¿Dónde puedo revisar las normas nacionales e internacionales de un envío?
-información;¿Cómo puedo hacer seguimiento de un envío?
-información;¿Puedo hacer seguimiento a un envío sin la orden de transporte?
-información;¿Puedo enviar un documento o encomienda a otro país a través de Chilexpress?
-información;¿Qué requisito debe cumplir un envío internacional para que sea entregado en el destino?
-información;¿Cuáles son los plazos de entrega asociados a un envío internacional?
-información;Para un envío internacional, ¿cuál es la diferencia entre una ciudad principal y una ciudad secundaria?
-información;¿Cuáles son los medios de pago de los servicios online?
-información;¿Es necesario ser cliente con cuenta Chilexpress para acceder a los servicios online?
-información;Si soy menor de edad, ¿puedo retirar un giro de dinero?
-información;¿En cuánto tiempo está disponible un giro para retiro?
-información;¿Puedo cobrar un giro en cualquier sucursal de Chilexpress?
-información;Si me envían un giro en dólares ¿en qué moneda lo retiro?
-información;Si perdí mi contraseña con la que me registré en el sitio para realizar envíos, ¿puedo recuperarla por teléfono?
-información;¿Qué es el MTCN?
-información;Si hice un Giro online y no he recibido el MTCN, ¿puedo solicitarlo por teléfono?
-información;Hice un giro online pero ingresé mal el nombre del destinatario ¿cómo puedo corregirlo?
-información;¿Puedo ir a retirar una encomienda a cualquier oficina de Chilexpress?
-información;¿Puedo ir a retirar un documento a cualquier oficina de Chilexpress?
-información;¿Qué debe hacer el destinatario para retirar su envío por pagar?
-información;¿Puede una tercera persona retirar un envío por pagar que no está a su nombre?
-información;¿Qué sucursales no están habilitadas para recibir un envío por pagar?
-información;¿Puedo solicitar materiales telefónicamente?
-información;¿Cómo programo los retiros habituales?
-información;Cuando solicito un retiro a través del Portal Empresas, ¿cómo genero la Orden de Transporte?
-información;Al generar un envío masivo, ¿cómo obtengo la Orden de Transporte?
-información;¿Cómo puedo abrir una cuenta empresa con Chilexpress?
-información;¿Cuánto tiempo tarda en ser habilitada mi cuenta empresa Chilexpress?
-información;¿Cuál es el costo mínimo mensual de la cuenta empresa Chilexpress?
-información;¿Cuántas veces al mes se facturan los envíos realizados a través de la cuenta empresa Chilexpress?
-información;¿Sólo las empresas pueden tener una cuenta con Chilexpress?
-información;¿Cómo obtengo mi usuario y contraseña de cliente empresa Chilexpress?
+informacion;¿Qué es la Orden de Transporte (OT)?
+informacion;¿Cuál es el plazo para retirar un envío desde una sucursal de Chilexpress?
+informacion;¿Puede otra persona retirar mi envío de una sucursal Chilexpress?
+informacion;¿Se puede modificar la dirección de envío?
+informacion;¿Puedo cambiar el destino del envío desde una dirección particular a una sucursal de Chilexpress?
+informacion;¿El destinatario puede cambiar la dirección del envío?
+informacion;Si el destinatario no se encuentra en la dirección de envío, ¿puede recibirlo otra persona?
+informacion;¿Qué pasa si el destinatario no puede recibir el envío en su dirección?
+informacion;¿Cuántos intentos de entrega en el domicilio realiza Chilexpress, antes de devolver un envío al remitente?
+informacion;¿Chilexpress solicita el RUT del destinatario para realizar un envío desde una sucursal?
+informacion;¿Qué es un envío sobredimensionado?
+informacion;¿Cuánto cuesta un envío sobredimensionado?
+informacion;¿Existen restricciones en los tiempos de entrega para un envío sobredimensionado?
+informacion;¿Cuál es la diferencia entre un documento y una encomienda?
+informacion;¿Dónde puedo revisar las normas nacionales e internacionales de un envío?
+informacion;¿Cómo puedo hacer seguimiento de un envío?
+informacion;¿Puedo hacer seguimiento a un envío sin la orden de transporte?
+informacion;¿Puedo enviar un documento o encomienda a otro país a través de Chilexpress?
+informacion;¿Qué requisito debe cumplir un envío internacional para que sea entregado en el destino?
+informacion;¿Cuáles son los plazos de entrega asociados a un envío internacional?
+informacion;Para un envío internacional, ¿cuál es la diferencia entre una ciudad principal y una ciudad secundaria?
+informacion;¿Cuáles son los medios de pago de los servicios online?
+informacion;¿Es necesario ser cliente con cuenta Chilexpress para acceder a los servicios online?
+informacion;Si soy menor de edad, ¿puedo retirar un giro de dinero?
+informacion;¿En cuánto tiempo está disponible un giro para retiro?
+informacion;¿Puedo cobrar un giro en cualquier sucursal de Chilexpress?
+informacion;Si me envían un giro en dólares ¿en qué moneda lo retiro?
+informacion;Si perdí mi contraseña con la que me registré en el sitio para realizar envíos, ¿puedo recuperarla por teléfono?
+informacion;¿Qué es el MTCN?
+informacion;Si hice un Giro online y no he recibido el MTCN, ¿puedo solicitarlo por teléfono?
+informacion;Hice un giro online pero ingresé mal el nombre del destinatario ¿cómo puedo corregirlo?
+informacion;¿Puedo ir a retirar una encomienda a cualquier oficina de Chilexpress?
+informacion;¿Puedo ir a retirar un documento a cualquier oficina de Chilexpress?
+informacion;¿Qué debe hacer el destinatario para retirar su envío por pagar?
+informacion;¿Puede una tercera persona retirar un envío por pagar que no está a su nombre?
+informacion;¿Qué sucursales no están habilitadas para recibir un envío por pagar?
+informacion;¿Puedo solicitar materiales telefónicamente?
+informacion;¿Cómo programo los retiros habituales?
+informacion;Cuando solicito un retiro a través del Portal Empresas, ¿cómo genero la Orden de Transporte?
+informacion;Al generar un envío masivo, ¿cómo obtengo la Orden de Transporte?
+informacion;¿Cómo puedo abrir una cuenta empresa con Chilexpress?
+informacion;¿Cuánto tiempo tarda en ser habilitada mi cuenta empresa Chilexpress?
+informacion;¿Cuál es el costo mínimo mensual de la cuenta empresa Chilexpress?
+informacion;¿Cuántas veces al mes se facturan los envíos realizados a través de la cuenta empresa Chilexpress?
+informacion;¿Sólo las empresas pueden tener una cuenta con Chilexpress?
+informacion;¿Cómo obtengo mi usuario y contraseña de cliente empresa Chilexpress?
