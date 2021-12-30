@@ -9,8 +9,8 @@ saludo;¿Cómo estás?
 saludo;¿Cómo está?
 saludo;¿Cómo se encuentra hoy?
 saludo;¿Cómo te encuentras hoy?
-saludo;¡Hola en este hermoso día!
-saludo;¡Hola hola!
+saludo;Hola, robot
+saludo;Encantado
 saludo;Un gusto saludar
 saludo;Un gusto
 despedida;Chao
@@ -26,6 +26,8 @@ despedida;¡Que esté muy bien!
 despedida;¡Que estés bien!
 despedida;¡Que estés muy bien!
 despedida;Un saludo
+despedida;Gracias!
+despedida;Ha sido un gusto
 nombre;Mi nombre es
 nombre;Mi usuario es
 nombre;Yo soy
@@ -33,8 +35,16 @@ nombre;Me llamo
 nombre;Soy
 nombre;Permítame presentarme, soy
 nombre;Permíteme presentarme, soy
-nombre;Soy conocida como
-nombre;Me conocen como
+nombre;Uso el nombre
+nombre;Puede llamarme
+nombre;Me llaman
+nombre;Mi dato nombre es
+nombre;Mi nombre completo es
+nombre;Mi seudonimo es
+nombre;Mi pseudonimo es
+nombre;Mi apellido es
+nombre;Mi nombre y apellido son
+nombre;Mi nombre y apellido es
 información;¿Qué es la Orden de Transporte (OT)?
 información;¿Cuál es el plazo para retirar un envío desde una sucursal de Chilexpress?
 información;¿Puede otra persona retirar mi envío de una sucursal Chilexpress?
