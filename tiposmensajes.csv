@@ -3,6 +3,12 @@ saludo;Hola
 saludo;Buenas noches
 saludo;Buenos días
 saludo;Buen día
+saludo;Buen Lunes
+saludo;Buen Martes
+saludo;Buen Miércoles
+saludo;Buen Jueves
+saludo;Buen Sábado
+saludo;Buen Domingo
 saludo;Buenas tardes
 saludo;Buena tarde
 saludo;¿Cómo estás?
@@ -10,20 +16,35 @@ saludo;¿Cómo está?
 saludo;¿Cómo se encuentra hoy?
 saludo;¿Cómo te encuentras hoy?
 saludo;Hola, robot
+saludo;Hola, bot
 saludo;Encantado
 saludo;Un gusto saludar
 saludo;Un gusto
 saludo;Buenas
 saludo;¿Hay alguien?
 saludo;¿Quién me puede atender?
+saludo;¿Me pueden atender?
 saludo;¿Puede responderme?
+saludo;¿Me pueden responder?
 saludo;Tengo una duda
+saludo;Tengo unas dudas
 saludo;Tengo una pregunta
+saludo;Tengo unas preguntas
 saludo;Tengo un problema
+saludo;Tengo unos problemas
+saludo;Tengo una duda sobre Chilexpress
+saludo;Tengo unas dudas sobre Chilexpress
+saludo;Tengo una pregunta sobre Chilexpress
+saludo;Tengo unas preguntas sobre Chilexpress
+saludo;Tengo un problema con Chilexpress
+saludo;Tengo unos problemas con Chilexpress
 saludo;Aló
 saludo;Yuju
 saludo;Hey
 saludo;Hola ¿Quien eres?
+saludo;Te saludo
+saludo;¿Qué tal?
+saludo;¿Cómo estamos?
 despedida;Chao
 despedida;Adiós
 despedida;Hasta luego
@@ -36,6 +57,11 @@ despedida;¡Que esté bien!
 despedida;¡Que esté muy bien!
 despedida;¡Que estés bien!
 despedida;¡Que estés muy bien!
+despedida;Que tenga buena semana
+despedida;Que tengas buena semana
+despedida;Que pases un buen fin de semana
+despedida;Que pase un buen fin de semana
+despedida;Voy a cortar ahora
 despedida;Un saludo
 despedida;Gracias!
 despedida;Ha sido un gusto
@@ -51,6 +77,19 @@ despedida;Me voy, gracias
 despedida;Ok, ahora me tengo que ir
 despedida;Cerraré esta ventana
 despedida;Cuídate
+despedida;Vale
+despedida;Me solucionaste el problema. ¡Gracias!
+despedida;Fue un gusto hablar contigo
+despedida;Tengo que irme ahora, chao
+despedida;No tengo más dudas
+despedida;Saludos
+despedida;Saludos cordiales
+despedida;Gracias por tu atención
+despedida;Gracias por atenderme
+despedida;Gracias tu respuesta
+despedida;Gracias tus respuestas
+despedida;Gracias su respuesta
+despedida;Gracias sus respuestas
 nombre;Mi nombre es
 nombre;Mi usuario es
 nombre;Yo soy
@@ -78,6 +117,15 @@ nombre;En internet, mi nombre es
 nombre;Estoy registrado como
 nombre;Usa mi correo, que es
 nombre;Utiliza mi correo, que es
+nombre;Hablas con
+nombre;Habla con
+nombre;Estás hablando con
+nombre;Está hablando con
+nombre;Te comunicas con
+nombre;Se comunica con
+nombre;Te estás comunicando con
+nombre;Se está comunicando con
+nombre;De parte de
 información;¿Qué es la Orden de Transporte (OT)?
 información;¿Cuál es el plazo para retirar un envío desde una sucursal de Chilexpress?
 información;¿Puede otra persona retirar mi envío de una sucursal Chilexpress?
