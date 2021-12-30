@@ -3,12 +3,15 @@ saludo;Hola
 saludo;Buenas noches
 saludo;Buenos días
 saludo;Buenas tardes
+saludo;Buenas tarde
 saludo;¿Cómo estás?
 saludo;¿Cómo está?
 saludo;¿Cómo se encuentra hoy?
 saludo;¿Cómo te encuentras hoy?
 saludo;¡Hola en este hermoso día!
 saludo;¡Hola hola!
+saludo;Un gusto saludar
+saludo;Un gusto
 despedida;Chao
 despedida;Adiós
 despedida;Hasta luego
@@ -17,12 +20,17 @@ despedida;Que tenga buen día
 despedida;Que tenga un buen día
 despedida;Que tengas buen día
 despedida;Que tenga un buen día
+despedida;¡Que esté bien!
+despedida;¡Que esté muy bien!
+despedida;¡Que estés bien!
+despedida;¡Que estés muy bien!
 nombre;Mi nombre es
 nombre;Mi usuario es
 nombre;Yo soy
 nombre;Me llamo
 nombre;Soy
 nombre;Permítame presentarme, soy
+nombre;Permíteme presentarme, soy
 nombre;Soy conocida como
 información;¿Qué es la Orden de Transporte (OT)?
 información;¿Cuál es el plazo para retirar un envío desde una sucursal de Chilexpress?
@@ -30,9 +38,9 @@ información;¿Puede otra persona retirar mi envío de una sucursal Chilexpress?
 información;¿Se puede modificar la dirección de envío?
 información;¿Puedo cambiar el destino del envío desde una dirección particular a una sucursal de Chilexpress?
 información;¿El destinatario puede cambiar la dirección del envío?
-información;"Si el destinatario no se encuentra en la dirección de envío, ¿puede recibirlo otra persona?"
+información;Si el destinatario no se encuentra en la dirección de envío, ¿puede recibirlo otra persona?
 información;¿Qué pasa si el destinatario no puede recibir el envío en su dirección?
-información;"¿Cuántos intentos de entrega en el domicilio realiza Chilexpress, antes de devolver un envío al remitente?"
+información;¿Cuántos intentos de entrega en el domicilio realiza Chilexpress, antes de devolver un envío al remitente?
 información;¿Chilexpress solicita el RUT del destinatario para realizar un envío desde una sucursal?
 información;¿Qué es un envío sobredimensionado?
 información;¿Cuánto cuesta un envío sobredimensionado?
@@ -44,16 +52,16 @@ información;¿Puedo hacer seguimiento a un envío sin la orden de transporte?
 información;¿Puedo enviar un documento o encomienda a otro país a través de Chilexpress?
 información;¿Qué requisito debe cumplir un envío internacional para que sea entregado en el destino?
 información;¿Cuáles son los plazos de entrega asociados a un envío internacional?
-información;"Para un envío internacional, ¿cuál es la diferencia entre una ciudad principal y una ciudad secundaria?"
+información;Para un envío internacional, ¿cuál es la diferencia entre una ciudad principal y una ciudad secundaria?
 información;¿Cuáles son los medios de pago de los servicios online?
 información;¿Es necesario ser cliente con cuenta Chilexpress para acceder a los servicios online?
-información;"Si soy menor de edad, ¿puedo retirar un giro de dinero?"
+información;Si soy menor de edad, ¿puedo retirar un giro de dinero?
 información;¿En cuánto tiempo está disponible un giro para retiro?
 información;¿Puedo cobrar un giro en cualquier sucursal de Chilexpress?
 información;Si me envían un giro en dólares ¿en qué moneda lo retiro?
-información;"Si perdí mi contraseña con la que me registré en el sitio para realizar envíos, ¿puedo recuperarla por teléfono?"
+información;Si perdí mi contraseña con la que me registré en el sitio para realizar envíos, ¿puedo recuperarla por teléfono?
 información;¿Qué es el MTCN?
-información;"Si hice un Giro online y no he recibido el MTCN, ¿puedo solicitarlo por teléfono?"
+información;Si hice un Giro online y no he recibido el MTCN, ¿puedo solicitarlo por teléfono?
 información;Hice un giro online pero ingresé mal el nombre del destinatario ¿cómo puedo corregirlo?
 información;¿Puedo ir a retirar una encomienda a cualquier oficina de Chilexpress?
 información;¿Puedo ir a retirar un documento a cualquier oficina de Chilexpress?
@@ -62,8 +70,8 @@ información;¿Puede una tercera persona retirar un envío por pagar que no est�
 información;¿Qué sucursales no están habilitadas para recibir un envío por pagar?
 información;¿Puedo solicitar materiales telefónicamente?
 información;¿Cómo programo los retiros habituales?
-información;"Cuando solicito un retiro a través del Portal Empresas, ¿cómo genero la Orden de Transporte?"
-información;"Al generar un envío masivo, ¿cómo obtengo la Orden de Transporte?"
+información;Cuando solicito un retiro a través del Portal Empresas, ¿cómo genero la Orden de Transporte?
+información;Al generar un envío masivo, ¿cómo obtengo la Orden de Transporte?
 información;¿Cómo puedo abrir una cuenta empresa con Chilexpress?
 información;¿Cuánto tiempo tarda en ser habilitada mi cuenta empresa Chilexpress?
 información;¿Cuál es el costo mínimo mensual de la cuenta empresa Chilexpress?

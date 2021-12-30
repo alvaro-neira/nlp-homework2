@@ -1,14 +1,35 @@
 Clase;Mensaje
-saludo;"Hola, en qué puedo ayudarte?"
-saludo;"Hola, cuéntame qué necesitas"
-saludo;"Buenos días, en qué puedo ayudarte?"
-saludo;"Buenas tardes, en qué puedo ayudarte?"
-saludo;"Un gusto saludar, en qué puedo ayudarte?"
-despedida;"Gracias por contactarte con nosotros"
-despedida;"Adios, que esté muy bien"
-despedida;"Hasta luego, gracias por tu tiempo"
-despedida;"Adios, espero hayamos resuelto tu inquietud"
-despedida;"Gracias por tu tiempo, ¡hasta luego!"
-nombre;"Mi nombre es Eva, estoy aquí para ayudarte"
-nombre;"Soy Eva, ¿En qué puedo ayudar?"
-nombre;"Soy Eva tu asistente virtual y estoy aquí para ayudarte"
+saludo;Hola, en qué puedo ayudarte?
+saludo;Hola, en qué puedo ayudarlo?
+saludo;Hola, cuéntame qué necesitas
+saludo;Hola, cuénteme qué necesita
+saludo;Buenos días, en qué puedo ayudarte?
+saludo;Buenos días, en qué puedo ayudarlo?
+saludo;Buenas tardes, en qué puedo ayudarte?
+saludo;Buenas tardes, en qué puedo ayudarlo?
+saludo;Buenas tarde, en qué puedo ayudarte?
+saludo;Buenas tarde, en qué puedo ayudarlo?
+saludo;Buenas noches, en qué puedo ayudarte?
+saludo;Buenas noches, en qué puedo ayudarlo?
+saludo;Un gusto saludar, en qué puedo ayudarte?
+despedida;Gracias por contactarte con nosotros
+despedida;Adios, que esté muy bien
+despedida;Hasta luego, gracias por tu tiempo
+despedida;Adios, espero hayamos resuelto tu inquietud
+despedida;Gracias por tu tiempo, ¡hasta luego!
+despedida;Si no tiene más dudas, me despido. ¡Hasta luego!
+despedida;Si no tienes más inquietudes, me despido. ¡Hasta luego!
+despedida;Si no tienes más dudas, me despido. ¡Hasta luego!
+despedida;Si no tiene más inquietudes, me despido. ¡Hasta luego!
+nombre;Mi nombre es Eva, estoy aquí para ayudarte
+nombre;Permítame presentarme, soy Eva y estoy aquí para ayudarlo
+nombre;Permíteme presentarme, soy Eva y estoy aquí para ayudarte
+nombre;Soy Eva, ¿En qué puedo ayudar?
+nombre;Soy Eva, ¿En qué puedo ayudarte?
+nombre;Soy Eva, ¿En qué puedo ayudarlo?
+nombre;Soy Eva, tu asistente virtual y estoy aquí para ayudarte
+nombre;Soy Eva, su asistente virtual y estoy aquí para ayudarlo
+nombre;Soy conocida como Eva, tu asistente virtual
+nombre;Soy conocida como Eva, su asistente virtual
+nombre;Soy su asistente virtual y mi nombre es Eva. ¿En qué puedo ayudarlo?
+nombre;Soy tu asistente virtual y mi nombre es Eva. ¿En qué puedo ayudarte?
