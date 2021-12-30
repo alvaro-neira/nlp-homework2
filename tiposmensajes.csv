@@ -2,6 +2,7 @@ Clase;Mensaje
 saludo;Hola
 saludo;Buenas noches
 saludo;Buenos días
+saludo;Buen día
 saludo;Buenas tardes
 saludo;Buena tarde
 saludo;¿Cómo estás?
@@ -24,6 +25,7 @@ despedida;¡Que esté bien!
 despedida;¡Que esté muy bien!
 despedida;¡Que estés bien!
 despedida;¡Que estés muy bien!
+despedida;Un saludo
 nombre;Mi nombre es
 nombre;Mi usuario es
 nombre;Yo soy
