@@ -33,10 +33,10 @@ https://centrodeayuda.chilexpress.cl/home
 La tabla 'tablaQA.csv' consiste en una columna con pregunta y otra con respuestas. Como se observa en esta sección, la tabla consiste en 46 preguntas y sus respectivas respuestas.
 """
 
-!wget https://raw.githubusercontent.com/alvaro-neira/nlp-homework2/main/tablaQA.csv -O /content/tablaQA.csv
+# tablaQA.csv
 
 import pandas as pd
-qa = pd.read_csv('/content/tablaQA.csv', sep='\t')
+qa = pd.read_csv('tablaQA.csv', sep='\t')
 qa.head()
 
 qa.info()
@@ -46,9 +46,9 @@ qa.info()
 La siguiente tabla corresponde a las preguntas de la sección QA de Chilexpress con la clase "información" y se han inventado los ejemplos de las clases "saludo", "despedida" y "nombre".
 """
 
-!wget https://raw.githubusercontent.com/alvaro-neira/nlp-homework2/main/tiposmensajes.csv -O /content/tiposmensajes.csv
+# tiposmensajes.csv
 
-messages = pd.read_csv('/content/tiposmensajes.csv', sep=';')
+messages = pd.read_csv('tiposmensajes.csv', sep=';')
 messages.head()
 
 """## 1.4 Genere respuestas predeterminadas (respuestasDefecto.xls) para los mensajes de tipo "saludo", "despedida", "nombre"
@@ -56,9 +56,9 @@ messages.head()
 Se generan respuestas por defecto para cada clase que hemos inventado, de esta forma, Eva puede responder a una pregunta de esta clase con una de las respuestas de esta lista.
 """
 
-!wget https://raw.githubusercontent.com/alvaro-neira/nlp-homework2/main/respuestasDefecto.csv -O /content/respuestasDefecto.csv
+#respuestasDefecto.csv
 
-answers = pd.read_csv('/content/respuestasDefecto.csv', sep=';')
+answers = pd.read_csv('respuestasDefecto.csv', sep=';')
 answers.head()
 
 """## 1.5 Describa en términos generales las tablas que construyó.
@@ -92,15 +92,15 @@ from sklearn.svm import LinearSVC
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-def normalizer(text): #normalizes a given string to lowercase and changes all vowels to their base form
-    text = text.lower() #string lowering
-    text = re.sub(r'[^A-Za-zñáéíóú]', ' ', text) #replaces every punctuation with a space
-    text = re.sub('á', 'a', text) #replaces special vowels to their base forms
-    text = re.sub('é', 'e', text)
-    text = re.sub('í', 'i', text)
-    text = re.sub('ó', 'o', text)
-    text = re.sub('ú', 'u', text)
-    return text
+def normalizer(text2): #normalizes a given string to lowercase and changes all vowels to their base form
+    text2 = text2.lower() #string lowering
+    text2 = re.sub(r'[^A-Za-zñáéíóú]', ' ', text2) #replaces every punctuation with a space
+    text2 = re.sub('á', 'a', text2) #replaces special vowels to their base forms
+    text2 = re.sub('é', 'e', text2)
+    text2 = re.sub('í', 'i', text2)
+    text2 = re.sub('ó', 'o', text2)
+    text2 = re.sub('ú', 'u', text2)
+    return text2
 
 def preprocessor(text):
   text = normalizer(text)
@@ -467,7 +467,7 @@ def flat_accuracy(preds, labels):
 
 """Desarrollo del entrenamiento. """
 
-# ~3 min
+# ~8 min
 #function to train the model
 def training(n_epochs, training_dataloader,
              validation_dataloader):
@@ -621,9 +621,7 @@ beto_qa = pipeline('question-answering',
 
 """* Para el texto del contexto, simplemente, se concatenan todas las respuestas de testQA.csv y se genera un solo string:"""
 
-context_text = ""
-for index, row in qa.iterrows():
-  context_text = context_text + ". " + row['Respuesta']
+context_text='. '.join(qa.Respuesta.tolist())
 
 """* La función **beto_get_answer()** se utiliza para entregar una respuesta mas amigable al usuario en caso de estar utilizando un chat bot real y que no encuentre una respuesta adecuada."""
 
@@ -642,13 +640,13 @@ def beto_get_answer(question):
 
 ### 3.2.2
 
-* Para la seccion 3.1.2 (Q&A) se copió lo visto en la clase práctica de transformers. Es decir, el modelo de **huggingface**:\
-[distill-bert-base-spanish-wwm-cased-finetuned-spa-squad2-es](https://https://huggingface.co/mrm8488/distill-bert-base-spanish-wwm-cased-finetuned-spa-squad2-es), consistente en:
+* Para la seccion 3.1.2 (Q&A), el modelo de **huggingface**:\
+[distill-bert-base-spanish-wwm-cased-finetuned-spa-squad2-es](https://huggingface.co/mrm8488/distill-bert-base-spanish-wwm-cased-finetuned-spa-squad2-es) también está basado en BETO.
 
-
-*   BETO (BERT para español)
-*   SQuAD 2.0
-*   Aplicada *Distillation*
+* La versión de BETO que utiliza es [dccuchile/bert-base-spanish-wwm-cased](https://huggingface.co/dccuchile/bert-base-spanish-wwm-cased)
+* Sobre esto se le aplica *fine tuning* utilizando el dataset [SQuAD 2.0 en Español](https://github.com/ccasimiro88/TranslateAlignRetrieve/blob/master/SQuAD-es-v2.0/) (consistente en preguntas y respuestas) para re-entrenar.
+*   Aplicada *Distillation* que otorga mejora comprobada en accuracy. Y mejora reportada en eficiencia al entrenar. 
+*   En este caso no tuvimos que hacer ningún entrenamiento adicional.
 
 ## 3.3 Reporte el resultado con los textos de prueba.
 """
@@ -666,33 +664,9 @@ print(beto_get_answer('¿Qué es un envío sobredimensionado?')+"\n")
 print('¿Quién ganará la próxima elección?')
 print(beto_get_answer('¿Quién ganará la próxima elección?')+"\n")
 
-# ~8min
-stats_beto_qa = []
-for index, row in qa.iterrows():
-  res=beto_qa({'question': row['Pregunta'], 'context': context_text})
-  stats_beto_qa.append({'question': row['Pregunta'], 'score':res['score'], 'answer':res['answer']})
-
-def get_avg_score(stats):
-  total=0.0
-  n=0
-  for ans in stats:
-    n=n+1
-    total = total + ans['score']
-  return total/n
-
-def show_as_table(stats):
-  table_beto_qa = []
-  for ans in stats:
-    table_beto_qa.append([ans['question'], str(round(ans['score']*100.0, 2)), ans['answer']])
-  table_beto_qa.append(['avg', str(round(get_avg_score(stats)*100.0, 2)), ans['answer']])
-  pd.DataFrame(table_beto_qa, columns=['Pregunta', 'Score', 'Respuesta'])
-
-show_as_table
-
 """# Conclusión
 
 El desarrollo de esta tarea permite concluir que los métodos anteriores a transformers, en los que se utilizan embeddings como Word2Vec (desarrollado en esta tarea) o Elmo, tiene una mayor dificultad lograr entrenar un modelo que pueda identificar el tipo de preguntas o cuáles son las palabras claves de ellas. Se necesita una gran cantidad de ejemplos clasificados para lograr buenos resultados. 
 
 En el caso de las redes tipo transformers, se utiliza un modelo preentrenado como BERT o BETO (BERT en español) como tokenizador. De esta forma, se utiliza un modelo entrenado en *todo* el idioma con lo que se pueden identificar las clases de las frases con una mayor precisión, con la misma cantidad de datos. 
 """
-
